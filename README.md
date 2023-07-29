@@ -14,7 +14,7 @@ By default it keep the following setting:
    if non-zero do some low temperature MCMC steps to check minimum stable
  - minimize_mcmc_refine_num = 30
  - minimize_refine_temp = 0.01 
-
+\\
 
 The code also changes the ranges starting values reading the corresponding likestat values they obtained from MCMC run.
 
