@@ -26,5 +26,6 @@ The code also changes the ranges starting values reading the corresponding likes
 Make sure that MCMC ini file is also present in the bobyqa code base.
 
 Using the syntax to run the code
-
+```
 py bbqa_ini.py <likestat file> <mcmc ini>
+```
