@@ -10,11 +10,12 @@ By default it keep the following setting:
  - max_like_iterations = 5000
  - minimization_points_factor = 4
  - minimize_loglike_tolerance = 0.05
- - minimize_separate_fast = F
-   if non-zero do some low temperature MCMC steps to check minimum stable
- - minimize_mcmc_refine_num = 30
+ - minimize_separate_fast = F \
+   
+   To do some low temperature MCMC steps to check minimum stable
+ - minimize_mcmc_refine_num = 50
  - minimize_refine_temp = 0.01 
-\\
+\
 
 The code also changes the ranges starting values reading the corresponding likestat values they obtained from MCMC run.
 
